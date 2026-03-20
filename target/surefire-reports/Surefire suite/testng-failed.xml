@@ -4,15 +4,15 @@
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <groups>
       <run>
-        <include name="DevTools"/>
+        <include name="ChallDom"/>
       </run>
     </groups>
     <classes>
-      <class name="BasicAuthTest">
+      <class name="ChallDomTest">
         <methods>
-          <include name="BasicAuthDevTools"/>
+          <include name="ChallDom"/>
         </methods>
-      </class> <!-- BasicAuthTest -->
+      </class> <!-- ChallDomTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
