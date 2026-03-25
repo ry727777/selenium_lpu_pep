@@ -1,4 +1,8 @@
+ChallDomTest.class
+DropDownTest.class
+DropDownFileUploadTest.class
 BasicAuthTest.class
 CheckGoogleTitle.class
 AddRemoveElementsTest.class
+LoginFormTest.class
 ABTestingTest.class

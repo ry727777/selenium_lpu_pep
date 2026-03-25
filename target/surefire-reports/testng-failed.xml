@@ -4,17 +4,17 @@
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <groups>
       <run>
-        <include name="LoginForm"/>
+        <include name="fileupload"/>
       </run>
     </groups>
     <classes>
-      <class name="LoginFormTest">
+      <class name="DropDownFileUploadTest">
         <methods>
-          <include name="validPassword"/>
-          <include name="endUp"/>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="fileUpload"/>
         </methods>
-      </class> <!-- LoginFormTest -->
+      </class> <!-- DropDownFileUploadTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
